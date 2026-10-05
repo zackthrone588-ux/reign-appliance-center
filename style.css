@@ -44,7 +44,7 @@ nav a:hover {
 
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("appliance.png");
+        url("appliances.png");
 
     background-size: cover;
     background-position: center;
@@ -112,7 +112,6 @@ footer {
     color: #2563eb;
     font-weight: bold;
     text-decoration: none;
-    cursor: pointer;
 }
 
 .get-started:hover {
