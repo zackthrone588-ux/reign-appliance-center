@@ -43,11 +43,13 @@ nav a:hover {
     text-align: center;
 
     background-image:
-        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("appliances.png");
+        linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+        url("reign-logo.png");
 
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
+    background-color: #2563eb;
 
     color: white;
     padding: 30px;
