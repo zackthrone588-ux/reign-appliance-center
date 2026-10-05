@@ -1,3 +1,4 @@
+```css
 * {
     margin: 0;
     padding: 0;
@@ -41,7 +42,14 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #2563eb;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("appliance.png");
+
+    background-size: cover;
+    background-position: center;
+
     color: white;
     padding: 30px;
 }
@@ -54,20 +62,6 @@ nav a:hover {
 .hero p {
     font-size: 18px;
     margin-bottom: 25px;
-}
-
-button {
-    padding: 12px 25px;
-    border: none;
-    border-radius: 6px;
-    background: white;
-    color: #2563eb;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #e5e7eb;
 }
 
 section {
@@ -130,7 +124,6 @@ footer {
     }
 }
 
-/* Get Started Button */
 .get-started {
     display: inline-block;
     padding: 12px 25px;
@@ -145,3 +138,4 @@ footer {
 .get-started:hover {
     background: #e5e7eb;
 }
+```
