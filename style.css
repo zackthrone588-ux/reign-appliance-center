@@ -42,7 +42,12 @@ nav a:hover {
     align-items: center;
     text-align: center;
 
-    background: linear-gradient(135deg, #2563eb, #0ea5e9);
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("appliance.png");
+
+    background-size: cover;
+    background-position: center;
 
     color: white;
     padding: 30px;
